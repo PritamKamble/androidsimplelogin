@@ -10,4 +10,5 @@
     <color name="black">#121111</color>
     <color name="white">#ffffff</color>
     <color name="dark_green">#04b155</color>
+    <color name="bgcolor">#0099cc</color>>
 </resources>
