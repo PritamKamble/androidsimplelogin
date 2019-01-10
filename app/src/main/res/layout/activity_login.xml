@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".loginActivity">
+    tools:context=".loginActivity"
+    android:background="@color/bgcolor">
 
     <TextView
         android:id="@+id/textView"
@@ -84,6 +85,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editText2"
         app:layout_constraintVertical_bias="0.58"
-        android:background="@drawable/black_rectangle"/>
+        android:background="@drawable/roundbutton" />
 
 </android.support.constraint.ConstraintLayout>

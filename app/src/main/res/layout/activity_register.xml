@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".registerActivity">
+    tools:context=".registerActivity"
+    android:background="@color/bgcolor">
 
     <Button
         android:id="@+id/registerfinalbtn"
@@ -22,7 +23,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.935"
-        android:background="@drawable/black_rectangle"/>
+        android:background="@drawable/roundbutton"/>
 
     <EditText
         android:id="@+id/etemail"
@@ -145,6 +146,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.404"
-        android:background="@drawable/black_rectangle"/>
+        android:background="@drawable/roundbutton"/>
 
 </android.support.constraint.ConstraintLayout>
